@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Compra</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__menu">
+        <p class="header__logo">Sistema de Inventario</p>
+        <section class="header__user">
+          <p class="header__usuario">Usuario</p>
+          <p class="header__cerrar">Cerrar Sesion</p>
+        </section>
+      </nav>
+    </header>
+    <main id="main">
+      <aside class="menu">
+        <ul class="menu__lista">
+          <li class="menu__list">
+            <a href="index.html" class="menu__enlace">Producto</a>
+          </li>
+          <li class="menu__list">
+            <a href="compra.html" target="_blank" class="menu__enlace"
+              >Compra</a
+            >
+          </li>
+          <li class="menu__list">
+            <a href="proveedor.html" target="_blank" class="menu__enlace"
+              >Proveedor</a
+            >
+          </li>
+          <li class="menu__list">
+            <a href="cliente.html" target="_blank" class="menu__enlace"
+              >Cliente</a
+            >
+          </li>
+          <li class="menu__list">
+            <a href="venta.html" target="_blank" class="menu__enlace">Venta</a>
+          </li>
+        </ul>
+      </aside>
+
+      <!-- section compra -->
+      <section class="compra" id="compra">
+        <h2 class="compra__title">Detalles de la compra</h2>
+
+        <div class="compra__cont1 compra__cont">
+          <label for="" class="compra__num"
+            >N° Producto <span class="compra__span">*</span></label
+          >
+          <input type="text" placeholder="1205" class="compra__input" />
+        </div>
+
+        <div class="compra__cont2 compra__cont">
+          <label for="" class="compra__date">Fecha de la compra</label>
+          <input type="date" value="" />
+        </div>
+
+        <div class="compra__cont3 compra__cont">
+          <label for="" class="compra__name"
+            >Nombre del Producto <span class="compra__span">*</span></label
+          >
+          <input
+            type="text"
+            placeholder="ej: cubo rubik"
+            class="compra__input"
+          />
+        </div>
+
+        <div class="compra__cont4 compra__cont">
+          <label for="" class="compra__exactuales">Existencias actuales</label>
+          <input type="text" placeholder="200" class="compra__input" />
+        </div>
+
+        <div class="compra__cont5 compra__cont">
+          <label for="" class="compra__amount"
+            >Cantidad <span class="compra__span">*</span></label
+          >
+          <input type="text" placeholder="" class="compra__input" />
+        </div>
+
+        <div class="compra__cont6 compra__cont">
+          <label for="" class="compra__pr"
+            >Pr Unitario <span class="compra__span">*</span></label
+          >
+          <input type="text" placeholder="2000" class="compra__input" />
+        </div>
+
+        <div class="compra__cont7 compra__cont">
+          <label for="" class="compra__cstotal">Costo total</label>
+          <input type="text" placeholder="" class="compra__input" />
+        </div>
+
+        <div class="compra__buttons compra__cont">
+          <button class="compra__boton compra__boton--verde">Agregar</button>
+          <button class="compra__boton compra__boton--rojo">Borrar</button>
+          <button class="compra__boton compra__boton--gris">Limpiar</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

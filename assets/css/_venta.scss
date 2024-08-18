@@ -1,0 +1,67 @@
+@use "variables";
+
+/* Movile First */
+
+.venta {
+  @media screen and (min-width: 480px) {
+    border-left: 0.1rem #000 solid;
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  &__title {
+    background-color: variables.$color-gris-titulos;
+    height: 5rem;
+    padding: 1rem;
+    width: 100%;
+  }
+
+  &__span {
+    color: variables.$color-rojo;
+  }
+
+  &__cont {
+    margin: 2rem 0.5rem;
+
+    @media screen and (min-width: 480px) {
+      margin: 1rem 0 2rem 3rem;
+    }
+  }
+
+  &__input {
+    margin-top: 0.5rem;
+    height: 2rem;
+    padding-left: 1rem;
+    outline: none;
+
+    @media screen and (min-width: 480px) {
+      height: 3rem;
+    }
+  }
+
+  &__buttons {
+    margin-top: 4rem;
+    text-align: center;
+  }
+
+  &__boton {
+    padding: 1rem;
+    margin-left: 2rem;
+    color: variables.$color-blanco;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+    &--verde {
+      background-color: variables.$color-verde-boton;
+    }
+
+    &--rojo {
+      background-color: variables.$color-rojo;
+    }
+
+    &--gris {
+      background-color: variables.$color-gris-limpiar;
+      color: variables.$color-negro;
+    }
+  }
+}

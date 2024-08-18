@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Inventory System</title>
+  </head>
+  <body>
+    <header class="ingreso">
+      <h2 class="ingreso__logo">Sistema de Inventario</h2>
+    </header>
+
+    <main>
+      <h1 id="titulo">
+        ¡Bienvenido a <span class="titulo-color">Inventory</span> System!
+      </h1>
+
+      <section class="section">
+        <div class="section__cont">
+          <label for="" class="section__label"
+            >Usuario <span class="section__span">*</span></label
+          >
+          <br />
+          <input type="text" class="section__input" placeholder="ej: jluis" />
+        </div>
+        <div class="section__cont">
+          <label for="" class="section__label section__label--izq"
+            >Contraseña <span class="section__span">*</span></label
+          >
+          <br />
+          <input
+            type="text"
+            class="section__input"
+            placeholder="Ingresar contaseña"
+          />
+        </div>
+
+        <input type="button" value="Iniciar Sesión" class="section__ingresar" />
+
+        <div class="section__cuenta">
+          <a href="#" class="section__olvidar">¿Olvidaste tu contraseña?</a>
+          <a href="./form-ingreso.html" class="section__crear" target="_blank"
+            >Crear una cuenta</a
+          >
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

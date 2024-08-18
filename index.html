@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/187d706be2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Maquetación mapa de navegación</title>
+  </head>
+  <body>
+    <!-- PAGINA PRINCIPAL -->
+
+    <!-- menu de navegación -->
+    <header class="header">
+      <nav class="header__menu">
+        <p class="header__logo">Sistema de Inventario</p>
+        <section class="header__user">
+          <p class="header__usuario">Usuario</p>
+          <p class="header__cerrar">Cerrar Sesion</p>
+        </section>
+      </nav>
+    </header>
+    <main id="main">
+      <aside class="menu">
+        <ul class="menu__lista">
+          <li class="menu__list">
+            <a href="index.html" target="_blank" class="menu__enlace"
+              >Producto</a
+            >
+          </li>
+          <li class="menu__list">
+            <a href="compra.html" class="menu__enlace" target="_blank"
+              >Compra</a
+            >
+          </li>
+          <li class="menu__list">
+            <a href="proveedor.html" target="_blank" class="menu__enlace"
+              >Proveedor</a
+            >
+          </li>
+          <li class="menu__list">
+            <a href="cliente.html" target="_blank" class="menu__enlace"
+              >Cliente</a
+            >
+          </li>
+          <li class="menu__list">
+            <a href="venta.html" target="_blank" class="menu__enlace">Venta</a>
+          </li>
+        </ul>
+      </aside>
+
+      <!-- section producto -->
+
+      <section class="producto" id="product">
+        <h2 class="producto__title">Detalles del producto</h2>
+
+        <div class="producto__cont">
+          <label for="" class="producto__num"
+            >N° Producto <span class="producto__span">*</span></label
+          >
+          <input type="text" placeholder="0115" class="producto__input" />
+        </div>
+
+        <div class="producto__cont">
+          <label for="" class="producto__img">Imagen</label>
+          <input type="file" value="Examinar" />
+        </div>
+
+        <div class="producto__cont">
+          <label for="" class="producto__name"
+            >Nombre del Producto <span class="producto__span">*</span></label
+          >
+          <input
+            type="text"
+            placeholder="ej: cubo rubik"
+            class="producto__input"
+          />
+        </div>
+
+        <div class="producto__cont">
+          <label for="" class="producto__state">Estado</label>
+          <select name="" id="" class="producto__select">
+            <option value="activo" class="producto__opt">Activo</option>
+            <option value="inactivo" class="producto__opt">Inactivo</option>
+          </select>
+        </div>
+
+        <div class="producto__cont">
+          <label for="" class="producto__desc">Descuento %</label>
+          <input type="text" placeholder="5%" class="producto__input" />
+        </div>
+
+        <div class="producto__cont">
+          <label for="" class="producto__amount"
+            >Cantidad <span class="producto__span">*</span></label
+          >
+          <input type="text" placeholder="2" class="producto__input" />
+        </div>
+
+        <div class="producto__cont">
+          <label for="" class="producto__pr"
+            >Pr Unitario <span class="producto__span">*</span></label
+          >
+          <input type="text" placeholder="12000" class="producto__input" />
+        </div>
+
+        <div class="producto__buttons producto__cont">
+          <button class="producto__boton--verde producto__boton">
+            Agregar
+          </button>
+          <button class="producto__boton--rojo producto__boton">Borrar</button>
+          <button class="producto__boton--gris producto__boton">Limpiar</button>
+        </div>
+      </section>
+
+      <script src="main.js" type="module" defer></script>
+    </main>
+  </body>
+</html>

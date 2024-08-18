@@ -1,0 +1,46 @@
+@use "variables";
+
+/* Movile first */
+
+.form {
+  margin: auto;
+  width: 40rem;
+  text-align: center;
+
+  &__titulo {
+    margin: 4rem 0 5rem 0;
+    font-size: 4rem;
+    color: variables.$color-rojo-claro;
+  }
+
+  &__input {
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    width: 25rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    background-color: variables.$color-gris-limpiar;
+    border-radius: 0.5rem;
+
+    &::placeholder {
+      text-align: center;
+    }
+
+    @media screen and (min-width: 480px) {
+      &::placeholder {
+        text-align: left;
+      }
+    }
+  }
+
+  &__button {
+    margin-top: 2rem;
+    height: 4rem;
+    width: 30%;
+    color: variables.$color-blanco;
+    background-color: variables.$color-rojo-claro;
+    border-radius: 2rem;
+    cursor: pointer;
+  }
+}

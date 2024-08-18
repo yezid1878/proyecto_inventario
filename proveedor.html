@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Proveedor</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__menu">
+        <p class="header__logo">Sistema de Inventario</p>
+        <section class="header__user">
+          <p class="header__usuario">Usuario</p>
+          <p class="header__cerrar">Cerrar Sesion</p>
+        </section>
+      </nav>
+    </header>
+    <main id="main">
+      <aside class="menu">
+        <ul class="menu__lista">
+          <li class="menu__list">
+            <a href="index.html" class="menu__enlace">Producto</a>
+          </li>
+          <li class="menu__list">
+            <a href="compra.html" target="_blank" class="menu__enlace"
+              >Compra</a
+            >
+          </li>
+          <li class="menu__list">
+            <a href="proveedor.html" target="_blank" class="menu__enlace"
+              >Proveedor</a
+            >
+          </li>
+          <li class="menu__list">
+            <a href="cliente.html" target="_blank" class="menu__enlace"
+              >Cliente</a
+            >
+          </li>
+          <li class="menu__list">
+            <a href="venta.html" target="_blank" class="menu__enlace">Venta</a>
+          </li>
+        </ul>
+      </aside>
+
+      <!-- Section proveedor -->
+      <section class="proveedor" id="proveedor">
+        <h2 class="proveedor__title">Detalles del proveedor</h2>
+
+        <div class="proveedor__cont">
+          <label for="" class="proveedor__name"
+            >Nombre Completo <span class="proveedor__span">*</span></label
+          >
+          <input type="text" class="proveedor__input" />
+        </div>
+
+        <div class="proveedor__cont">
+          <label for="" class="proveedor__state">Estado</label>
+          <select name="" id="" class="proveedor__select">
+            <option value="activo" class="proveedor__opt">Activo</option>
+            <option value="inactivo" class="proveedor__opt">Inactivo</option>
+          </select>
+        </div>
+
+        <div class="proveedor__cont">
+          <label for="" class="producto__tel"
+            >Telefono <span class="proveedor__span">*</span></label
+          >
+          <input type="text" class="proveedor__input" />
+        </div>
+
+        <div class="proveedor__cont">
+          <label for="" class="proveedor__correo"
+            >Correo <span class="proveedor__span">*</span></label
+          >
+          <input type="text" class="proveedor__input" />
+        </div>
+
+        <div class="proveedor__cont">
+          <label for="" class="proveedor__dire"
+            >Direccion <span class="proveedor__span">*</span></label
+          >
+          <input type="text" class="proveedor__input" />
+        </div>
+
+        <div class="proveedor__cont">
+          <label for="" class="proveedor__depart">Departamento</label>
+          <input type="text" placeholder="" class="proveedor__input" />
+        </div>
+
+        <div class="proveedor__cont">
+          <label for="" class="proveedor__city">Ciudad</label>
+          <input type="text" placeholder="" class="proveedor__input" />
+        </div>
+
+        <div class="proveedor__buttons proveedor__cont">
+          <button class="proveedor__boton proveedor__boton--verde">
+            Agregar
+          </button>
+          <button class="proveedor__boton proveedor__boton--rojo">
+            Borrar
+          </button>
+          <button class="proveedor__boton proveedor__boton--gris">
+            Limpiar
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
