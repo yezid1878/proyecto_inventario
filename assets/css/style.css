@@ -523,6 +523,14 @@ body {
   color: #000000;
 }
 
+@media screen and (min-width: 480px) {
+  .busqueda {
+    border-left: 0.1rem #000 solid;
+    font-size: 2rem;
+    width: 100%;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;

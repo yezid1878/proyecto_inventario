@@ -1,0 +1,9 @@
+@use "variables";
+
+.busqueda {
+  @media screen and (min-width: 480px) {
+    border-left: 0.1rem #000 solid;
+    font-size: 2rem;
+    width: 100%;
+  }
+}
