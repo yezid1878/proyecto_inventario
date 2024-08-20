@@ -51,7 +51,40 @@
         </ul>
       </aside>
 
-      <section class="busqueda" id="busqueda"></section>
+      <section class="busqueda" id="busqueda">
+        <h2 class="busqueda__title">Busqueda</h2>
+
+        <div class="busqueda__cont">
+          <label for="" class="busqueda__name"
+            >Cliente <span class="busqueda__span"></span
+          ></label>
+          <template id="template">
+            <table class="table">
+              <thead class="thead">
+                <tr>
+                  <th>Id</th>
+                  <th>Nombre</th>
+                  <th>Dirección</th>
+                  <th>Telefono</th>
+                  <th>Email</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="lista">
+                  <td class="id td"></td>
+                  <td class="nombre td"></td>
+                  <td class="direccion td"></td>
+                  <td class="telefono td"></td>
+                  <td class="email td"></td>
+                </tr>
+              </tbody>
+            </table>
+          </template>
+        </div>
+        <button class="busqueda__boton" id="btn_buscar">buscar</button>
+      </section>
+
+      <script src="assets/js/busqueda.js" type="module" defer></script>
     </main>
   </body>
 </html>

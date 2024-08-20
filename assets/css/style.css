@@ -530,6 +530,35 @@ body {
     width: 100%;
   }
 }
+.busqueda__title {
+  background-color: #f0f0f0;
+  height: 5rem;
+  padding: 1rem;
+  width: 100%;
+}
+.busqueda__span {
+  color: #ff0000;
+}
+.busqueda__cont {
+  margin: 2rem 0.5rem;
+}
+@media screen and (min-width: 480px) {
+  .busqueda__cont {
+    margin: 1rem 0 2rem 3rem;
+  }
+}
+.busqueda__boton {
+  padding: 1rem;
+  margin-left: 2rem;
+  color: #000000;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.td {
+  margin-right: 1rem;
+  padding: 1rem;
+}
 
 * {
   margin: 0;
