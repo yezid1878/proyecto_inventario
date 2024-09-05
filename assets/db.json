@@ -1,0 +1,74 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Jose Camilo Perez",
+      "direccion": "calle 13 #4-96 Loma de Bolivar",
+      "telefono": "3228769548",
+      "email": "jsc@gmail.com"
+    },
+    {
+      "id": 2,
+      "nombre": "Maria Luisa Rojas",
+      "direccion": "calle 8 #42-96 Santander",
+      "telefono": "3234567890",
+      "email": "MaRo41@gmail.com"
+    },
+    {
+      "id": 3,
+      "nombre": "Danny Ferney Fuentes",
+      "direccion": "Mzn E 13 #8-9 Loma Torcoroma 3",
+      "telefono": "3112345431",
+      "email": "Danny1302@gmail.com"
+    },
+    {
+      "id": 4,
+      "nombre": "Adriana Sofia Saab",
+      "direccion": "calle 18 #2-55 Aguas calientes",
+      "telefono": "3132456543",
+      "email": "AdriSa31@gmail.com"
+    },
+    {
+      "id": 5,
+      "nombre": "Bryan Alejandro Figueroa",
+      "direccion": "calle 4 # 0-97 Madrid",
+      "telefono": "3254312345",
+      "email": "Baf@hotmail.com"
+    },
+    {
+      "id": 6,
+      "nombre": "Maria fernanda Silva",
+      "direccion": "crr 14 # 3-76 los Alpes",
+      "telefono": "3108769568",
+      "email": "mafer27@gmail.com"
+    },
+    {
+      "id": 7,
+      "nombre": "Juan Daniel Villamizar",
+      "direccion": "Mzn C4 #12-76 La Union",
+      "telefono": "3143250986",
+      "email": "Daniel18@gmail.com"
+    },
+    {
+      "id": 8,
+      "nombre": "Laura Camila Osorio",
+      "direccion": "avenida 6 # 12-45 centro",
+      "telefono": "3123096478",
+      "email": "Lau_64@outlook.es"
+    },
+    {
+      "id": 9,
+      "nombre": "Leonel Jesus Acevedo",
+      "direccion": "cra 14 #11-56 Bellavista",
+      "telefono": "3198045649",
+      "email": "LeonelJeAc@gmail.com"
+    },
+    {
+      "id": 10,
+      "nombre": "Lina Alejandra Arenas",
+      "direccion": "calle 12 #4-65 Barrio Blanco",
+      "telefono": "3132907658",
+      "email": "Lina_Ale65@gmail.com"
+    }
+  ]
+}

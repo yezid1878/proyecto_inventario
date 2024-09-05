@@ -1,1 +1,2 @@
-(d = document), (w = window);
+const d = document,
+  w = window;

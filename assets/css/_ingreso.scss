@@ -1,4 +1,9 @@
 @use "variables";
+main {
+  @media screen and (min-width: 480px) {
+    display: contents;
+  }
+}
 
 .ingreso {
   &__logo {
@@ -28,6 +33,7 @@
 }
 .section {
   text-align: center;
+  margin-top: 5rem;
 
   &__cont {
     margin: 2rem 0 2rem 0;

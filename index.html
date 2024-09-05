@@ -1,128 +1,57 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <script
-      src="https://kit.fontawesome.com/187d706be2.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Maquetación mapa de navegación</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Inventory System</title>
   </head>
   <body>
-    <!-- PAGINA PRINCIPAL -->
-
-    <!-- menu de navegación -->
-    <header class="header">
-      <nav class="header__menu">
-        <p class="header__logo">Sistema de Inventario</p>
-        <section class="header__user">
-          <p class="header__usuario">Usuario</p>
-          <p class="header__cerrar">Cerrar Sesion</p>
-        </section>
-      </nav>
+    <header class="ingreso">
+      <h2 class="ingreso__logo">Sistema de Inventario</h2>
     </header>
-    <main id="main">
-      <aside class="menu">
-        <ul class="menu__lista">
-          <li class="menu__list">
-            <a href="index.html" target="_blank" class="menu__enlace"
-              >Producto</a
-            >
-          </li>
-          <li class="menu__list">
-            <a href="compra.html" class="menu__enlace" target="_blank"
-              >Compra</a
-            >
-          </li>
-          <li class="menu__list">
-            <a href="proveedor.html" target="_blank" class="menu__enlace"
-              >Proveedor</a
-            >
-          </li>
-          <li class="menu__list">
-            <a href="cliente.html" target="_blank" class="menu__enlace"
-              >Cliente</a
-            >
-          </li>
-          <li class="menu__list">
-            <a href="venta.html" target="_blank" class="menu__enlace">Venta</a>
-          </li>
-          <li class="menu__list">
-            <a href="busqueda.html" target="_blank" class="menu__enlace"
-              >Busqueda</a
-            >
-          </li>
-        </ul>
-      </aside>
 
-      <!-- section producto -->
+    <main>
+      <h1 id="titulo">
+        ¡Bienvenido a <span class="titulo-color">Inventory</span> System!
+      </h1>
 
-      <section class="producto" id="product">
-        <h2 class="producto__title">Detalles del producto</h2>
-
-        <div class="producto__cont">
-          <label for="" class="producto__num"
-            >N° Producto <span class="producto__span">*</span></label
+      <section class="section">
+        <div class="section__cont">
+          <label for="" class="section__label"
+            >Usuario <span class="section__span">*</span></label
           >
-          <input type="text" placeholder="0115" class="producto__input" />
+          <br />
+          <input type="text" class="section__input" placeholder="ej: jluis" />
         </div>
-
-        <div class="producto__cont">
-          <label for="" class="producto__img">Imagen</label>
-          <input type="file" value="Examinar" />
-        </div>
-
-        <div class="producto__cont">
-          <label for="" class="producto__name"
-            >Nombre del Producto <span class="producto__span">*</span></label
+        <div class="section__cont">
+          <label for="" class="section__label section__label--izq"
+            >Contraseña <span class="section__span">*</span></label
           >
+          <br />
           <input
             type="text"
-            placeholder="ej: cubo rubik"
-            class="producto__input"
+            class="section__input"
+            placeholder="Ingresar contaseña"
           />
         </div>
 
-        <div class="producto__cont">
-          <label for="" class="producto__state">Estado</label>
-          <select name="" id="" class="producto__select">
-            <option value="activo" class="producto__opt">Activo</option>
-            <option value="inactivo" class="producto__opt">Inactivo</option>
-          </select>
-        </div>
+        <input
+          type="button"
+          value="Iniciar Sesión"
+          class="section__ingresar"
+          id="ingreso"
+        />
 
-        <div class="producto__cont">
-          <label for="" class="producto__desc">Descuento %</label>
-          <input type="text" placeholder="5%" class="producto__input" />
-        </div>
-
-        <div class="producto__cont">
-          <label for="" class="producto__amount"
-            >Cantidad <span class="producto__span">*</span></label
+        <div class="section__cuenta">
+          <a href="#" class="section__olvidar">¿Olvidaste tu contraseña?</a>
+          <a href="./form-ingreso.html" class="section__crear" target="_blank"
+            >Crear una cuenta</a
           >
-          <input type="text" placeholder="2" class="producto__input" />
-        </div>
-
-        <div class="producto__cont">
-          <label for="" class="producto__pr"
-            >Pr Unitario <span class="producto__span">*</span></label
-          >
-          <input type="text" placeholder="12000" class="producto__input" />
-        </div>
-
-        <div class="producto__buttons producto__cont">
-          <button class="producto__boton--verde producto__boton">
-            Agregar
-          </button>
-          <button class="producto__boton--rojo producto__boton">Borrar</button>
-          <button class="producto__boton--gris producto__boton">Limpiar</button>
         </div>
       </section>
-
-      <script src="main.js" type="module" defer></script>
+      <script src="./assets/js/ingreso.js" defer type="module"></script>
     </main>
   </body>
 </html>
