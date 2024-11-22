@@ -1,6 +1,19 @@
 const d = document,
   w = window;
 
-const $ingreso = d.getElementById("ingreso");
+const $ingreso = d.getElementById("ingreso"),
+  $usuarios = d.getElementById("usuario"),
+  $password = d.getElementById("password");
 
-$ingreso.addEventListener("click", (e) => {});
+$ingreso.addEventListener("click", (e) => {
+  let ingreso = () => {
+    if (
+      $usuarios.value === "admin".toLowerCase() ||
+      $password.value === "admin"
+    ) {
+      location.href = "producto.html";
+    }
+  };
+
+  ingreso();
+});

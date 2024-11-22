@@ -1,0 +1,145 @@
+/* Movile First */
+body {
+  margin: auto;
+  width: 40rem;
+}
+@media screen and (min-width: 480px) {
+  body {
+    width: 100%;
+  }
+}
+
+.header {
+  height: 6rem;
+  background-color: #6d9dfa;
+  color: #ffffff;
+}
+@media screen and (min-width: 480px) {
+  .header {
+    font-size: 2rem;
+  }
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+}
+.header__user {
+  display: flex;
+  justify-content: space-between;
+}
+.header__usuario {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+@media screen and (min-width: 480px) {
+  .header__usuario {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    margin-right: 2rem;
+    cursor: pointer;
+  }
+}
+.header__cerrar {
+  cursor: pointer;
+}
+
+/* main */
+@media screen and (min-width: 480px) {
+  main {
+    display: flex;
+  }
+}
+
+/* aside */
+.menu {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+@media screen and (min-width: 480px) {
+  .menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    margin-top: 3rem;
+    margin-right: 6rem;
+    font-size: 2rem;
+  }
+  .menu__list {
+    margin-bottom: 3rem;
+    margin: 0 3rem 1rem 3rem;
+    list-style-type: none;
+    width: 12rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+  }
+  .menu__list:hover {
+    background-color: #f59523;
+    cursor: pointer;
+  }
+  .menu__enlace {
+    text-decoration: none;
+    color: #0000ff;
+  }
+}
+
+/* Modulo producto */
+@media screen and (min-width: 480px) {
+  .producto {
+    border-left: 0.1rem #000 solid;
+    font-size: 2rem;
+    width: 100%;
+  }
+}
+.producto__title {
+  background-color: #f0f0f0;
+  height: 5rem;
+  padding: 1rem;
+  width: 100%;
+}
+.producto__span {
+  color: #ff0000;
+}
+.producto__cont {
+  margin: 2rem 0.5rem;
+}
+@media screen and (min-width: 480px) {
+  .producto__cont {
+    margin: 1rem 0 2rem 3rem;
+  }
+}
+.producto__input {
+  margin-top: 0.5rem;
+  height: 2rem;
+  padding-left: 1rem;
+  outline: none;
+}
+@media screen and (min-width: 480px) {
+  .producto__input {
+    height: 3rem;
+  }
+}
+.producto__buttons {
+  margin-top: 4rem;
+  text-align: center;
+}
+.producto__boton {
+  padding: 1rem;
+  margin-left: 2rem;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.producto__boton--verde {
+  background-color: #36bd44;
+}
+.producto__boton--rojo {
+  background-color: #ff0000;
+}
+.producto__boton--gris {
+  background-color: #d9d9d9;
+  color: #000000;
+} /*# sourceMappingURL=producto.css.map */

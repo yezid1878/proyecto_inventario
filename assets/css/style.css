@@ -200,14 +200,19 @@ body {
 }
 .header__cerrar {
   cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 1.7rem;
+  font-weight: 400;
 }
 
 /* main */
-/* @media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) {
   main {
     display: flex;
   }
-} */
+}
 
 /* aside */
 .menu {
@@ -579,4 +584,4 @@ html {
 
 body {
   font-size: 1.6rem;
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

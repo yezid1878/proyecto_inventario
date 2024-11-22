@@ -47,10 +47,20 @@ body {
 
   &__cerrar {
     cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: variables.$color-blanco;
+    font-size: 1.7rem;
+    font-weight: 400;
   }
 }
 
 /* main */
+main {
+  @media screen and (min-width: 480px) {
+    display: flex;
+  }
+}
 
 /* aside */
 
