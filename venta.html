@@ -13,6 +13,12 @@
         <p class="header__logo">Sistema de Inventario</p>
         <section class="header__user">
           <p class="header__usuario">Usuario</p>
+          <input
+            class="header__cerrar"
+            type="button"
+            value="cerrar sesion"
+            id="cerrar_se"
+          />
           <p class="header__cerrar">Cerrar Sesion</p>
         </section>
       </nav>
@@ -21,30 +27,22 @@
       <aside class="menu">
         <ul class="menu__lista">
           <li class="menu__list">
-            <a href="index.html" class="menu__enlace">Producto</a>
+            <a href="producto.html" class="menu__enlace">Producto</a>
           </li>
           <li class="menu__list">
-            <a href="compra.html" target="_blank" class="menu__enlace"
-              >Compra</a
-            >
+            <a href="compra.html" class="menu__enlace">Compra</a>
           </li>
           <li class="menu__list">
-            <a href="proveedor.html" target="_blank" class="menu__enlace"
-              >Proveedor</a
-            >
+            <a href="proveedor.html" class="menu__enlace">Proveedor</a>
           </li>
           <li class="menu__list">
-            <a href="cliente.html" target="_blank" class="menu__enlace"
-              >Cliente</a
-            >
+            <a href="cliente.html" class="menu__enlace">Cliente</a>
           </li>
           <li class="menu__list">
-            <a href="venta.html" target="_blank" class="menu__enlace">Venta</a>
+            <a href="venta.html" class="menu__enlace">Venta</a>
           </li>
           <li class="menu__list">
-            <a href="busqueda.html" target="_blank" class="menu__enlace"
-              >Busqueda</a
-            >
+            <a href="busqueda.html" class="menu__enlace">Busqueda</a>
           </li>
         </ul>
       </aside>
@@ -109,6 +107,8 @@
           <button class="venta__boton venta__boton--gris">Limpiar</button>
         </div>
       </section>
+
+      <script src="./assets/js/main.js" type="module" defer></script>
     </main>
   </body>
 </html>

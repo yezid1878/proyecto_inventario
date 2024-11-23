@@ -17,3 +17,18 @@ $ingreso.addEventListener("click", (e) => {
 
   ingreso();
 });
+
+w.addEventListener("keydown", (e) => {
+  let ingreso = () => {
+    if (
+      $usuarios.value === "admin".toLowerCase() ||
+      $password.value === "admin"
+    ) {
+      location.href = "producto.html";
+    }
+  };
+
+  if (e.key === "Enter") {
+    ingreso();
+  }
+});
