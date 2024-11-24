@@ -23,63 +23,62 @@
       </nav>
     </header>
     <main id="main">
-      <aside class="menu">
-        <ul class="menu__lista">
-          <li class="menu__list">
-            <a href="producto.html" class="menu__enlace">Producto</a>
-          </li>
-          <li class="menu__list">
-            <a href="compra.html" class="menu__enlace">Compra</a>
-          </li>
-          <li class="menu__list">
-            <a href="proveedor.html" class="menu__enlace">Proveedor</a>
-          </li>
-          <li class="menu__list">
-            <a href="cliente.html" class="menu__enlace">Cliente</a>
-          </li>
-          <li class="menu__list">
-            <a href="venta.html" class="menu__enlace">Venta</a>
-          </li>
-          <li class="menu__list">
-            <a href="busqueda.html" class="menu__enlace">Busqueda</a>
-          </li>
-        </ul>
-      </aside>
+      <section class="main">
+        <aside class="menu">
+          <ul class="menu__lista">
+            <li class="menu__list">
+              <a href="producto.html" class="menu__enlace">Producto</a>
+            </li>
+            <li class="menu__list">
+              <a href="compra.html" class="menu__enlace">Compra</a>
+            </li>
+            <li class="menu__list">
+              <a href="proveedor.html" class="menu__enlace">Proveedor</a>
+            </li>
+            <li class="menu__list">
+              <a href="cliente.html" class="menu__enlace">Cliente</a>
+            </li>
+            <li class="menu__list">
+              <a href="venta.html" class="menu__enlace">Venta</a>
+            </li>
+            <li class="menu__list">
+              <a href="busqueda.html" class="menu__enlace">Busqueda</a>
+            </li>
+          </ul>
+        </aside>
 
-      <section class="busqueda" id="busqueda">
-        <h2 class="busqueda__title">Busqueda</h2>
+        <section class="busqueda" id="busqueda">
+          <h2 class="busqueda__title">Busqueda</h2>
 
-        <div class="busqueda__cont">
-          <label for="" class="busqueda__name"
-            >Cliente <span class="busqueda__span"></span
-          ></label>
-          <template id="template">
-            <table class="table">
-              <thead class="thead">
-                <tr>
-                  <th>Id</th>
-                  <th>Nombre</th>
-                  <th>Dirección</th>
-                  <th>Telefono</th>
-                  <th>Email</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="lista">
-                  <td class="id td"></td>
-                  <td class="nombre td"></td>
-                  <td class="direccion td"></td>
-                  <td class="telefono td"></td>
-                  <td class="email td"></td>
-                </tr>
-              </tbody>
-            </table>
-          </template>
-        </div>
-        <button class="busqueda__boton" id="btn_buscar">buscar</button>
+          <div class="busqueda__cont">
+            <label for="" class="busqueda__name"
+              >Cliente <span class="busqueda__span"></span
+            ></label>
+            <template id="template">
+              <table class="table">
+                <thead class="thead">
+                  <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Dirección</th>
+                    <th>Telefono</th>
+                    <th>Email</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="lista">
+                    <td class="nombre td"></td>
+                    <td class="correo td"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </template>
+          </div>
+          <button class="busqueda__boton" id="btn_buscar">buscar</button>
+        </section>
       </section>
 
-      <script src="assets/js/busqueda.js" type="module" defer></script>
+      <script src="./assets/js/busqueda.js" type="module" defer></script>
       <script src="./assets/js/main.js" type="module" defer></script>
     </main>
   </body>

@@ -9,7 +9,7 @@
       src="https://kit.fontawesome.com/187d706be2.js"
       crossorigin="anonymous"
     ></script>
-    <title>Maquetación mapa de navegación</title>
+    <title>Producto</title>
   </head>
   <body>
     <!-- PAGINA PRINCIPAL -->
@@ -30,97 +30,97 @@
       </nav>
     </header>
     <main id="main">
-      <aside class="menu">
-        <ul class="menu__lista">
-          <li class="menu__list">
-            <a href="prodcuto.html" class="menu__enlace">Producto</a>
-          </li>
-          <li class="menu__list">
-            <a href="compra.html" class="menu__enlace">Compra</a>
-          </li>
-          <li class="menu__list">
-            <a href="proveedor.html" target="_blank" class="menu__enlace"
-              >Proveedor</a
+      <section class="main">
+        <aside class="menu">
+          <ul class="menu__lista">
+            <li class="menu__list">
+              <a href="producto.html" class="menu__enlace">Producto</a>
+            </li>
+            <li class="menu__list">
+              <a href="compra.html" class="menu__enlace">Compra</a>
+            </li>
+            <li class="menu__list">
+              <a href="proveedor.html" class="menu__enlace">Proveedor</a>
+            </li>
+            <li class="menu__list">
+              <a href="cliente.html" class="menu__enlace">Cliente</a>
+            </li>
+            <li class="menu__list">
+              <a href="venta.html" class="menu__enlace">Venta</a>
+            </li>
+            <li class="menu__list">
+              <a href="busqueda.html" class="menu__enlace">Busqueda</a>
+            </li>
+          </ul>
+        </aside>
+
+        <!-- section producto -->
+
+        <section class="producto" id="product">
+          <h2 class="producto__title">Detalles del producto</h2>
+
+          <div class="producto__cont">
+            <label for="" class="producto__num"
+              >N° Producto <span class="producto__span">*</span></label
             >
-          </li>
-          <li class="menu__list">
-            <a href="cliente.html" target="_blank" class="menu__enlace"
-              >Cliente</a
+            <input type="text" placeholder="0115" class="producto__input" />
+          </div>
+
+          <div class="producto__cont">
+            <label for="" class="producto__img">Imagen</label>
+            <input type="file" value="Examinar" />
+          </div>
+
+          <div class="producto__cont">
+            <label for="" class="producto__name"
+              >Nombre del Producto <span class="producto__span">*</span></label
             >
-          </li>
-          <li class="menu__list">
-            <a href="venta.html" target="_blank" class="menu__enlace">Venta</a>
-          </li>
-          <li class="menu__list">
-            <a href="busqueda.html" target="_blank" class="menu__enlace"
-              >Busqueda</a
+            <input
+              type="text"
+              placeholder="ej: cubo rubik"
+              class="producto__input"
+            />
+          </div>
+
+          <div class="producto__cont">
+            <label for="" class="producto__state">Estado</label>
+            <select name="" id="" class="producto__select">
+              <option value="activo" class="producto__opt">Activo</option>
+              <option value="inactivo" class="producto__opt">Inactivo</option>
+            </select>
+          </div>
+
+          <div class="producto__cont">
+            <label for="" class="producto__desc">Descuento %</label>
+            <input type="text" placeholder="5%" class="producto__input" />
+          </div>
+
+          <div class="producto__cont">
+            <label for="" class="producto__amount"
+              >Cantidad <span class="producto__span">*</span></label
             >
-          </li>
-        </ul>
-      </aside>
+            <input type="text" placeholder="2" class="producto__input" />
+          </div>
 
-      <!-- section producto -->
+          <div class="producto__cont">
+            <label for="" class="producto__pr"
+              >Pr Unitario <span class="producto__span">*</span></label
+            >
+            <input type="text" placeholder="12000" class="producto__input" />
+          </div>
 
-      <section class="producto" id="product">
-        <h2 class="producto__title">Detalles del producto</h2>
-
-        <div class="producto__cont">
-          <label for="" class="producto__num"
-            >N° Producto <span class="producto__span">*</span></label
-          >
-          <input type="text" placeholder="0115" class="producto__input" />
-        </div>
-
-        <div class="producto__cont">
-          <label for="" class="producto__img">Imagen</label>
-          <input type="file" value="Examinar" />
-        </div>
-
-        <div class="producto__cont">
-          <label for="" class="producto__name"
-            >Nombre del Producto <span class="producto__span">*</span></label
-          >
-          <input
-            type="text"
-            placeholder="ej: cubo rubik"
-            class="producto__input"
-          />
-        </div>
-
-        <div class="producto__cont">
-          <label for="" class="producto__state">Estado</label>
-          <select name="" id="" class="producto__select">
-            <option value="activo" class="producto__opt">Activo</option>
-            <option value="inactivo" class="producto__opt">Inactivo</option>
-          </select>
-        </div>
-
-        <div class="producto__cont">
-          <label for="" class="producto__desc">Descuento %</label>
-          <input type="text" placeholder="5%" class="producto__input" />
-        </div>
-
-        <div class="producto__cont">
-          <label for="" class="producto__amount"
-            >Cantidad <span class="producto__span">*</span></label
-          >
-          <input type="text" placeholder="2" class="producto__input" />
-        </div>
-
-        <div class="producto__cont">
-          <label for="" class="producto__pr"
-            >Pr Unitario <span class="producto__span">*</span></label
-          >
-          <input type="text" placeholder="12000" class="producto__input" />
-        </div>
-
-        <div class="producto__buttons producto__cont">
-          <button class="producto__boton--verde producto__boton">
-            Agregar
-          </button>
-          <button class="producto__boton--rojo producto__boton">Borrar</button>
-          <button class="producto__boton--gris producto__boton">Limpiar</button>
-        </div>
+          <div class="producto__buttons producto__cont">
+            <button class="producto__boton--verde producto__boton">
+              Agregar
+            </button>
+            <button class="producto__boton--rojo producto__boton">
+              Borrar
+            </button>
+            <button class="producto__boton--gris producto__boton">
+              Limpiar
+            </button>
+          </div>
+        </section>
       </section>
 
       <script src="./assets/js/main.js" type="module" defer></script>
