@@ -548,6 +548,14 @@ body {
   padding: 1rem;
   width: 100%;
 }
+.busqueda__name {
+  margin-left: 1rem;
+}
+@media screen and (min-width: 480px) {
+  .busqueda__name {
+    margin-left: -2rem;
+  }
+}
 .busqueda__span {
   color: #ff0000;
 }
@@ -561,10 +569,26 @@ body {
 }
 .busqueda__boton {
   padding: 1rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
   color: #000000;
   border-radius: 0.5rem;
   cursor: pointer;
+}
+
+.query__barra {
+  width: 38rem;
+  height: 3rem;
+  margin: 1rem;
+  padding-left: 5px;
+  outline: none;
+}
+.query__barra::-moz-placeholder {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+.query__barra::placeholder {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
 }
 
 .td {

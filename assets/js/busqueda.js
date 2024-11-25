@@ -20,8 +20,9 @@ const cargarUsuarios = async () => {
       console.log(json);
 
       json.forEach((el) => {
+        console.log(el);
         $template.querySelector(".nombre").textContent = el.nombre;
-        $template.querySelector(".direccion").textContent = el.direccion;
+        $template.querySelector(".correo").textContent = el.correo;
         let $clone = d.importNode($template, true);
         $fragment.appendChild($clone);
       });

@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Busqueda</title>
   </head>
   <body>
@@ -52,7 +59,7 @@
 
           <div class="busqueda__cont">
             <label for="" class="busqueda__name"
-              >Cliente <span class="busqueda__span"></span
+              >Reportes <span class="busqueda__span"></span
             ></label>
             <template id="template">
               <table class="table">
@@ -74,6 +81,11 @@
               </table>
             </template>
           </div>
+
+          <section class="query">
+            <input type="text" class="query__barra" placeholder="" />
+            <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+          </section>
           <button class="busqueda__boton" id="btn_buscar">buscar</button>
         </section>
       </section>
