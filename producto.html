@@ -63,7 +63,7 @@
             <label for="" class="producto__num"
               >N° Producto <span class="producto__span">*</span></label
             >
-            <input type="text" placeholder="0115" class="producto__input" />
+            <input type="text" placeholder="0115" class="producto__input" required />
           </div>
 
           <div class="producto__cont">
@@ -79,6 +79,7 @@
               type="text"
               placeholder="ej: cubo rubik"
               class="producto__input"
+              required
             />
           </div>
 
@@ -99,18 +100,18 @@
             <label for="" class="producto__amount"
               >Cantidad <span class="producto__span">*</span></label
             >
-            <input type="text" placeholder="2" class="producto__input" />
+            <input type="text" placeholder="2" class="producto__input" required />
           </div>
 
           <div class="producto__cont">
             <label for="" class="producto__pr"
               >Pr Unitario <span class="producto__span">*</span></label
             >
-            <input type="text" placeholder="12000" class="producto__input" />
+            <input type="text" placeholder="12000" class="producto__input" required/>
           </div>
 
           <div class="producto__buttons producto__cont">
-            <button class="producto__boton--verde producto__boton">
+            <button class="producto__boton--verde producto__boton" id="agregar" type="submit">
               Agregar
             </button>
             <button class="producto__boton--rojo producto__boton">
@@ -124,6 +125,7 @@
       </section>
 
       <script src="./assets/js/main.js" type="module" defer></script>
+      <script src="./assets/js/clean.js" defer type="module"></script>
     </main>
   </body>
 </html>

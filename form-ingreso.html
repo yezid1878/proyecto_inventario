@@ -10,10 +10,12 @@
   <body>
     <form action="" class="form" method="post">
       <h1 class="form__titulo">Crear cuenta</h1>
-      <input type="text" class="form__input" placeholder="Nombre" />
-      <input type="text" class="form__input" placeholder="Correo" />
-      <input type="text" class="form__input" placeholder="Contraseña" />
-      <input type="button" value="Crear" class="form__button" />
+      <input type="text" class="form__input name" placeholder="Nombre" required/>
+      <input type="text" class="form__input email" placeholder="Correo" required/>
+      <input type="password" class="form__input pass" placeholder="Contraseña" required/>
+      <input type="submit" value="Crear" class="form__button" id="crear" />
     </form>
+
+    <script src="./assets/js/form.js" defer type="module"></script>
   </body>
 </html>

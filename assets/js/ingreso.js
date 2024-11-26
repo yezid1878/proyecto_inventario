@@ -3,14 +3,16 @@ const d = document,
 
 const $ingreso = d.getElementById("ingreso"),
   $usuarios = d.getElementById("usuario"),
-  $password = d.getElementById("password");
+  $password = d.getElementById("password"),
+  $crear=d.getElementById("crear");
 
+  
 //  se crea un evento que al dar click en el inicio de seseión con el usuario admin se pueda entrar a la plataforma
 
 $ingreso.addEventListener("click", (e) => {
   let ingreso = () => {
     if (
-      $usuarios.value === "admin".toLowerCase() ||
+      $usuarios.value === "admin".toLowerCase() &&
       $password.value === "admin"
     ) {
       location.href = "producto.html";
@@ -25,7 +27,7 @@ $ingreso.addEventListener("click", (e) => {
 w.addEventListener("keydown", (e) => {
   let ingreso = () => {
     if (
-      $usuarios.value === "admin".toLowerCase() ||
+      $usuarios.value === "admin".toLowerCase() &&
       $password.value === "admin"
     ) {
       location.href = "producto.html";
@@ -36,3 +38,4 @@ w.addEventListener("keydown", (e) => {
     ingreso();
   }
 });
+
